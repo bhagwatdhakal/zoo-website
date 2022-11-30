@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gator Zoo</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/dev.css" />
+  </head>
+  <body>
+    <!-- header -->
+
+    <header class="header">
+      <a href="#" class="logo"> <i class="fas fa-paw"></i> Gator's zoo</a>
+
+      <nav class="navbar">
+        <ul>
+          <a href="index.html">home</a>
+          <a href="#">animals</a>
+          <a href="#">pricing</a>
+          <a href="#">About </a>
+          <div class="dropdown">
+		  <class="dropbtn"><a href="developers.html">Developers</a></button>
+		  <div class="dropdown-content">
+			<a href="dev1.html" target="_blank">Bhagwat</a>
+			<a href="dev2.html"target="_blank">Nick</a>
+			<a href="dev3.html"target="_blank">Alexis</a>
+			<a href="dev4.html"target="_blank">Holden</a>
+		  </div>
+        </ul>
+      </nav>
+
+
+      <div class="icons">
+        <div id="login-btn" class="fas fa-user"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <!-- login form -->
+
+      <form action="" class="login-form">
+        <h3>login form</h3>
+
+        <input type="email" placeholder="Enter your email" class="box" />
+        <input type="password" placeholder="Enter your password" class="box" />
+        <div class="remember">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+        </div>
+        <a href="#" class="btn">login</a>
+      </form>
+    </header>
+
+    <!-- end -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>
+          Meet our Team
+        </h3>
+        <a href="#developers" class="btn">Bahgwat</a>
+		<a href="#developers" class="btn">Nick</a>
+		<a href="#developers" class="btn">Alexis</a>
+		<a href="#developers" class="btn">Holden</a>
+      </div>
+
+      <img src="images/bottom_wave.png" alt="" class="wave" />
+    </section>
+
+    <!-- end -->
+
+    <!-- developers -->
+
+    <section class="developers" id="developers">
+      <h2 class="heading">Developers</h2>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/dev pics/dev1.png" alt="" />
+          <div class="content">
+            <h3>Bhagwat</h3>
+            <a href="dev1.html" class="btn">see details</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/dev pics/dev2.png" alt="" />
+          <div class="content">
+            <h3>Nick</h3>
+            <a href="dev2.html" class="btn">see details</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/dev pics/dev3.png" alt="" />
+          <div class="content">
+            <h3>Alexis</h3>
+            <a href="dev3.html" class="btn">see details</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/dev pics/dev4.png" alt="" />
+          <div class="content">
+            <h3>Holden</h3>
+            <a href="dev4.html" class="btn">see details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end -->
+
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">contact</h2>
+
+      <form action="">
+        <div class="inputBox">
+          <input type="text" placeholder="name" />
+          <input type="email" placeholder="email" />
+        </div>
+
+        <div class="inputBox">
+          <input type="number" placeholder="number" />
+          <input type="text" placeholder="subject" />
+        </div>
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="meassage"
+        ></textarea>
+
+        <a href="#" class="btn">send message</a>
+      </form>
+    </section>
+
+    <!-- end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3><i class="fas fa-paw"></i> Gator's zoo</h3>
+          <p>Enjoy the wonderful adventure of the animals.</p>
+          <p class="links"><i class="fas fa-clock"></i>monday - friday</p>
+          <p class="days">7:00AM - 11:00PM</p>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#" class="links"
+            ><i class="fas fa-phone"></i> (713)-221-8000</a
+          >
+          <a href="#" class="links"
+            ><i class="fas fa-phone"></i>(713)-221-8000</a
+          >
+          <a href="#" class="links"
+            ><i class="fas fa-envelope"></i> gator zoo</a
+          >
+          <a href="#" class="links"
+            ><i class="fas fa-map-marker-alt"></i> Houston, Texas</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i>home</a>
+
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i>animal</a
+          >
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i>pricing</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <input type="email" placeholder="Your Email" class="email" />
+          <a href="#" class="btn">subscribe</a>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="credit">
+        &copy; 2022 zoolife. All rights reserved by
+        <a href="#" class="link">Gator Zoo</a>
+      </div>
+    </section>
+
+    <!-- end -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
