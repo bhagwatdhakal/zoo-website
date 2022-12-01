@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gator Zoo</title>
     <!-- font awesome -->
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -18,28 +17,33 @@
     />
 
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image.jpg" href="images/favicon.JPG" />
+    <link rel="shortcut icon" type="image.jpg" href="images/favicon.JPG">
   </head>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-  </style>
   <body>
+
     <!-- header -->
 
     <header class="header">
-      <a href="index.html" class="logo">
-        <i class="fas fa-paw"></i> Gator's zoo</a
-      >
+      <a href="index.html" class="logo"> <i class="fas fa-paw"></i> Gator's zoo</a>
 
       <nav class="navbar">
         <ul>
-          <a href="index.html">home</a>
-          <a href="animals.html">animal</a>
+          <a href="#index">home</a>
+          <a href="animals.html">animals</a>
           <a href="#">pricing</a>
           <a href="aboutus.html">About </a>
-          <a href="developers.html">Developers</a>
+          
+          <!-- dropdown menu -->
+
+      <div class="dropdown">
+	  <class="dropbtn"><a href="developers.html">Developers</a></button>
+		  <div class="dropdown-content">
+			<a href="dev1.html">Bhagwat</a>
+			<a href="dev2.html">Nick</a>
+			<a href="dev3.html">Alexis</a>
+			<a href="dev4.html">Holden</a>
+		  </div>
+	  </div>
         </ul>
       </nav>
 
@@ -47,7 +51,7 @@
         <div id="login-btn" class="fas fa-user"></div>
         <div id="menu-btn" class="fas fa-bars"></div>
       </div>
-      <!-- end header -->
+
       <!-- login form -->
 
       <form action="" class="login-form">
@@ -63,55 +67,31 @@
       </form>
     </header>
 
-    <!-- end login form-->
+    <!-- end -->
 
-    <!-- Animals -->
-    <section class="animal" id="animal">
-      <h2 class="heading">Birds</h2>
-      <div class="background">
-        <div class="box-container">
-          <div class="box">
-            <img src="images/Animals/Petting/BabyGoats.jpg" alt="" />
-            <p>Parrot</p>
-            <p></p>
-            <div class="content">
-              <h3>Baby Goats</h3>
-            </div>
-          </div>
-          <div class="box">
-            <img src="images/Animals/Petting/Lama.jpg" alt="" />
-            <div class="content">
-              <h3>Lamas</h3>
-            </div>
-          </div>
-          <div class="box">
-            <img src="images/Animals/Petting/Sheep.jpg" alt="" />
-            <div class="content">
-              <h3>Sheeps</h3>
-            </div>
-          </div>
-          <div class="box">
-            <img src="images/Animals/Petting/Donkey.jpg" alt="" />
-            <div class="content">
-              <h3>Donkey</h3>
-            </div>
-          </div>
-          <div class="box">
-            <img src="images/Animals/Petting/Rabbits.jpg" alt="" />
-            <div class="content">
-              <h3>Rabbits</h3>
-            </div>
-          </div>
-        </div>
+    <!-- home -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>
+    About Us
+        </h3>
+        <a href="" class="btn"></a>
+		
       </div>
+
+      <img src="images/bottom_wave.png" alt="" class="wave" />
     </section>
-    <!-- end animals-->
+
+    <!-- end -->
 
     <!-- contact -->
 
-    <section class="contact" id="contact">
-      <h2 class="heading">contact</h2>
-
+    <section class="contact Us" id="gallery">
+     <h2 class="heading">contact Us</h2>
+     <div><h1 align="center">Email us with any questions or inquiries. We would<br>
+     be happy to answer your questins. Gator's Zoo will help you <br>
+     to explore new adventure!!</h1></div>
       <form action="">
         <div class="inputBox">
           <input type="text" placeholder="name" />
@@ -166,9 +146,7 @@
 
         <div class="box">
           <h3>quick links</h3>
-          <a href="index.html" class="links">
-            <i class="fas fa-arrow-right"></i>home</a
-          >
+          <a href="index.html" class="links"> <i class="fas fa-arrow-right"></i>home</a>
 
           <a href="animals.html" class="links">
             <i class="fas fa-arrow-right"></i>animal</a
@@ -198,7 +176,7 @@
       </div>
     </section>
 
-    <!-- end footer -->
+    <!-- end -->
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 

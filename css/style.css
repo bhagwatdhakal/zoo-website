@@ -349,7 +349,7 @@ section {
 
 /* pricing */
 
-.pricing .box-container {
+/* .pricing .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
@@ -388,7 +388,7 @@ section {
   font-size: 1.5rem;
   color: var(--black);
   padding: 0.5rem 0;
-}
+} */
 
 /* end */
 
@@ -584,6 +584,7 @@ section {
     font-size: 4rem;
   }
 }
+/* dropdown menu for heading */
 .dropbtn {
   color: white;
   padding: 10px;
